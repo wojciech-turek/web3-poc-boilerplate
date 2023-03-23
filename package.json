@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "install": "nx run-many --target=install --all",
     "frontend": "nx run frontend:dev",
     "backend": "nx run backend:dev",
     "database": "mongosh mongodb://localhost:27017"
